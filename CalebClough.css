@@ -1,0 +1,181 @@
+html {
+  background-color: grey;
+}
+
+body{
+  min-width: 780px;
+  width: 100%;
+}
+
+h1{
+  font: Impact ;
+  font-size: 40px;
+  color: white;
+  line-height: 0;
+}
+
+h2{
+  font: Impact ;
+  font-size: 20px;
+  color: white;
+}
+
+h3{
+  font: Impact ;
+  font-size: 18px;
+  color: black;
+  line-height: 0;
+  font-style: italic;
+}
+
+div{
+  border:0px;
+  padding: 10px;
+  margin: 10px;
+  box-sizing: border-box;
+  color:white;
+  background-color: grey;
+}
+
+img{
+  border: 0px;
+}
+
+.thumb {
+  max-height: 200px;
+  max-width: 200px;
+}
+
+.center{
+  margin: auto;
+  justify-content: center;
+}
+
+h3.subtext{
+  text-align: center;
+}
+
+div.tab{
+  margin:0px;
+  background-color: black;
+  height:40px;
+  width:300px;
+  text-align: left;
+  vertical-align: middle;
+  line-height: 40px;
+  padding:0px;
+  text-indent: 20px;
+}
+
+div.header{
+  background-color: black;
+  border: 0px solid white;
+  width: 100%;
+  max-width: 1000px;
+  padding: 10px;
+  text-align: right;
+  vertical-align: middle;
+  margin:0px;
+}
+
+div.item{
+  background-color: white;
+  border: 5px solid black;
+  width: 100%;
+  max-width: 1000px;
+  padding: 0px;
+  margin: 0px;
+}
+
+div.info{
+  background-color: white;
+  border: 5px solid black;
+  width: 100%;
+  max-width: 1000px;
+  padding: 0px;
+  margin: 0px;
+  text-indent: 20px;
+}
+
+div.holder{
+  background-color: white;
+  color: red;
+  display: flex;
+  padding:0px;
+}
+
+div.job{
+  width: 50%;
+  color: red;
+  background-color: white;
+  padding: 5px;
+  border: 3px solid black;
+}
+
+div.activity{
+  background-color: white;
+  flex-basis: auto;
+  width: 50%;
+  border: 3px solid black;
+}
+
+div.spacer{
+  border: 0px solid black;
+  background-color: grey;
+  height:10px;
+}
+
+div.noborder{
+  background-color: inherit;
+  border: 0px solid white;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+}
+
+div.noborderflexgrow{
+  background-color: inherit;
+  border: 0px solid white;
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+}
+
+div.companyname{
+  background-color: inherit;
+  border: 0px solid white;
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  height: 60px;
+  position: relative;
+}
+
+div.image{
+  background-color: inherit;
+  border: 0px solid white;
+  padding: 0px;
+  margin: 0px;
+  min-width: 170px;
+}
+
+p.contactinfo{
+    font: Impact ;
+    font-size: 18px;
+    color: black;
+    line-height: 0;
+    font-style: italic;
+    font-weight: 500;
+}
+
+p.smallcontent{
+  font: Impact ;
+  font-size: 16px;
+  color: black;
+  padding-left: 10px;
+}
+
+#centerer{
+  max-width: 1000px;
+  margin:auto;
+}
