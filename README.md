@@ -1,6 +1,6 @@
 # Web Based Resume
 
-Credited by: Caleb Clough
+Created by: Caleb Clough
 
 ## Description:
 
